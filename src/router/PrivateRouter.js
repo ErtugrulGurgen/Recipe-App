@@ -1,9 +1,7 @@
-import { Outlet , Navigate} from "react-router-dom"
+import { Navigate, Outlet } from "react-router-dom";
 
-const PrivateRouter=()=> {
-
-const user=JSON.parse(sessionStorage.getItem("user"))
- return user? <Outlet/>:<Navigate to="/"/>
-
-}
-export default  PrivateRouter
+const PrivateRouter = () => {
+  const user = JSON.parse(sessionStorage.getItem("user"));
+  return user ? <Outlet /> : <Navigate to="/Recipe-App/login" />;
+};
+export default PrivateRouter;

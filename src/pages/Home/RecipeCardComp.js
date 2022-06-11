@@ -5,7 +5,7 @@ import { Button, RecipeCard, RecipeHeader, RecipeImage } from './HomeStyle';
 const RecipeCardComp = ({recipe}) => {
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate("/details", {state:{recipe}})
+    navigate("/Recipe-App/details", {state:{recipe}})
   }
   return (
     <RecipeCard>
