@@ -1,1 +1,1 @@
-Check out the project via: https://ertugrulgurgen.github.io/Recipe-App/home
+Check out the project via: https://ertugrulgurgen.github.io/Recipe-App
